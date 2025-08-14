@@ -15,5 +15,5 @@ spanish:
   
 street:
   # https://fr.wikipedia.org/wiki/Odonymie_en_France
-  type: [Allée, Anse, Avenue, Boulevard, Carrefour, Chaussée, Chemin, Cité, Clos, Côte, Cour, Descente, Esplanade, Impasse, Montée, Passage, Place, Placette, Pont, Promenade, Quai, Résidence, Route, Rue, Ruelle, Sentier, Square, Traverse, Voie]
-  secondary: [Apt, Suite]
+  type: [Allée, Avenue, Boulevard, Carrefour, Chaussée, Chemin, Cité, Cour, Esplanade, Impasse, Montée, Passage, Place, Placette, Pont, Promenade, Quai, Résidence, Route, Rue, Ruelle, Sentier, Square, Voie]
+  secondary: [Apt]

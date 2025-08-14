@@ -190,14 +190,15 @@ public class Demographics implements Comparable<Demographics>, Serializable {
           // Given the previous categorization of languages by Synthea, the numbers line up closely.
           // https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_17_5YR_B16005H&prodType=table
           RandomCollection<String> whiteLanguageUsage = new RandomCollection();
-          whiteLanguageUsage.add(0.002, "italian");
-          whiteLanguageUsage.add(0.004, "french");
-          whiteLanguageUsage.add(0.003, "german");
+          whiteLanguageUsage.add(0.954, "french");
+          whiteLanguageUsage.add(0.02, "english");
+          whiteLanguageUsage.add(0.02, "spanish");
+          whiteLanguageUsage.add(0.001, "italian");
+          whiteLanguageUsage.add(0.001, "german");
           whiteLanguageUsage.add(0.001, "polish");
-          whiteLanguageUsage.add(0.002, "portuguese");
-          whiteLanguageUsage.add(0.003, "russian");
+          whiteLanguageUsage.add(0.001, "portuguese");
+          whiteLanguageUsage.add(0.001, "russian");
           whiteLanguageUsage.add(0.001, "greek");
-          whiteLanguageUsage.add(0.984, "english");
           return whiteLanguageUsage.next(random);
         case "black":
           // Only 3% of people who report a race of black or African American alone speak English
